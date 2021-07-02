@@ -6,7 +6,7 @@ import click
 
 @click.group() # comando principal que administra los siguientes comandos
 def contacts():
-    """ Manage the conctacts functions """
+    """ Manage the contacts functions """
     pass
 
 
