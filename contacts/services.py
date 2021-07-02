@@ -1,4 +1,3 @@
-import click
 import os
 import csv
 from contacts.model import Contact
