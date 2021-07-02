@@ -13,5 +13,5 @@ class Contact:
         return vars(self)
 
     @staticmethod
-    def list_schema():
-        return ['name, company, email, job, uid']
+    def schema():
+        return ['name', 'company', 'email', 'job', 'uid']
