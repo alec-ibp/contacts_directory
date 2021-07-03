@@ -4,7 +4,7 @@ from tabulate import tabulate
 import click
 
 
-@click.group() # comando principal que administra los siguientes comandos
+@click.group()
 def contacts():
     """ Manage the contacts functions """
     pass
